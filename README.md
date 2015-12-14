@@ -44,7 +44,7 @@ You should now be able to use the client in the following way (obtaining a seman
     $termsApi = new TermsApi($apiClient);
     
     $terms = $termsApi->getTerm("apple", true, $RETINA_NAME);
-    echo serialize($termArr[0]->fingerprint->positions);
+    echo serialize($terms[0]->fingerprint->positions);
 ```
 
 For further documentation about the Retina-API and information on cortical.io's 'Retina' technology please see: 
