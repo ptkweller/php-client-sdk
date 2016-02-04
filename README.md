@@ -1,5 +1,10 @@
-cortical.io
-===========
+# php-client-sdk
+
+
+### NOTE: This library is no longer being developed.
+
+## cortical.io
+
 Welcome to the cortical.io Retina PHP client source code page.
 
 Release Version: 2.2.0
